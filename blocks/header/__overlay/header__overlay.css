@@ -1,0 +1,33 @@
+.header__overlay {
+    background-image: url(../../../images/kings-cross.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 740px;
+    text-decoration: none;
+    text-align: center;
+    background-size: cover;
+    pointer-events: none;
+}
+
+.header__overlay::before {
+    content: '';
+    opacity: 0.5;
+    max-width: 1184px;
+    max-height: 740px;
+    transition: 0.7s;
+    background: #2a2c2f;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.header__overlay:hover::before {
+    opacity: 0.8;
+}
