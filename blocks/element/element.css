@@ -3,4 +3,10 @@
     list-style: none;
     width: 390px;
     position: relative;
+    transition: 1s;
+}
+
+.element:hover {
+    transition: 1s;
+    opacity: 0.8;
 }
