@@ -12,6 +12,7 @@
     text-align: center;
     background-size: cover;
     margin: 0;
+    box-shadow: 1px 1px 30px 1px;
 }
 
 .header__overlay::before {

@@ -34,6 +34,24 @@
 @import url(../blocks/info/__text/info__text.css);
 
 
+/* photo-grid */
+
+@import url(../blocks/photo-grid/photo-grid.css);
+
+
+/* elements */
+
+@import url(../blocks/elements/elements.css);
+
+
+/* element */
+
+@import url(../blocks/element/element.css);
+@import url(../blocks/element/__image/element__image.css);
+@import url(../blocks/element/__title/element__title.css);
+@import url(../blocks/element/__subtitle/element__subtitle.css);
+
+
 /* footer */
 
 @import url(../blocks/footer/footer.css);
