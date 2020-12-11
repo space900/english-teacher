@@ -11,6 +11,11 @@
 .header__link:hover {
     transition: 1s;
     color: lawngreen;
+    
+    border-width: 1px 0 1px 3px;
+    border-style: solid;
+    border-color: transparent lawngreen;
+    padding-left: 10px;
 }
 
 .header__link:not(:hover) {
