@@ -1,7 +1,13 @@
 .element__image {
     width: 100%;
     position: relative;
-    opacity: 0.6;
+    opacity: 1;
     min-height: 320px;
-    box-shadow: 5px 5px 20px 5px;
+    display: block;
+    transition: 1s;
+}
+
+.element__image:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
